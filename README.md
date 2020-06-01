@@ -1,2 +1,2 @@
 # PacificRim
-tools fro demo v7+K8s
+tools for demo v7+K8s
