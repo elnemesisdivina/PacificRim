@@ -4,7 +4,7 @@
 include the magic
 ########################
 
-. ./demo-magic.sh
+. ./magic-demo.sh
 
 clear
 
