@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-nginx
+spec:
+  selector:
+    matchLabels:
+      app: svc-nginx
+  template:
+    metadata:
+      labels:
+        app: svc-nginx
+    spec:
+      containers:
+        - name: svc-nginx
+          image: nginx
+---
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name:  svc-nginx-external
+spec:
+  type:  LoadBalancer
+  loadBalancerIP: 
+  selector:
+    app:  svc-nginx
+  ports:
+  - name:  http
+    port:  80
+    targetPort:  80

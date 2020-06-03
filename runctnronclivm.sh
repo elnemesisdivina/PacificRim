@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ########################
-include the magic
+#include the magic
 ########################
 
 . ./magic-demo.sh
