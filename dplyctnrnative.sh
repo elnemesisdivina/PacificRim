@@ -14,8 +14,8 @@ pe "kubectl vsphere login --server k8s.corp.local -u administrator@vsphere.local
 pe "kubectl config get-contexts" #kubectx where is supported
 pe "kubectl config use-context svc"
 pe "cat nginx-deployment.yaml"
-pe "kubectl apply -f /root/scripts/ngnix-deployment.yaml"
+pe "kubectl apply -f nginx-deployment.yaml"
 pe "kubectl get deployment"
 pe "kubectl get pods"
-pe "kubectl describe deployment ngnix-deployment"
+pe "kubectl describe deployment nginx-deployment"
 
