@@ -67,7 +67,7 @@ pe "kubectl get pods -o wide"
 
 pe "kubectl get all"
 
-#pe "kubectl delete -f kubernestes-manifests.yaml"
+#pe "kubectl delete -f kubernetes-manifests.yaml"
 
 
 
