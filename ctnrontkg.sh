@@ -39,7 +39,7 @@ pe "kubectl get pods"
 
 "kubectl apply -f allow-runasnonroot-clusterrole.yaml" 
 
-#create the app from github repo of google 
+#create the app from github repo of google to run online boutique app
 pe "git clone https://github.com/GoogleCloudPlatform/microservices-demo.git demo-app"
 
 #move the app 
