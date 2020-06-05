@@ -180,3 +180,4 @@ function! AnsiHighlight()
   "return writefile(retv, '/proc/self/fd/9')
   return writefile(retv, '/dev/fd/9')
 endfunction
+#
