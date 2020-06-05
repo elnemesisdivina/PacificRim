@@ -11,7 +11,7 @@ clear
 
 DEMO_PROMPT="ubuntu@cli-vm-corp-local:~/scripts$ "
 
-#login in native namespace
+#login in native namespace, just creck the correct namespace either  --tanzu-kubernetes-cluster-namespace tkg or tkg-<ip_addrss of cluster>
 
 #pe "kubectl vsphere login --server k8s.corp.local --vsphere-username administrator@corp.local --insecure-skip-tls-verify"
 
